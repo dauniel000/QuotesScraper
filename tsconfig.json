@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ES2022", // Or later
+        "module": "NodeNext", // Or "CommonJS"
+        "moduleResolution": "NodeNext",
+        "lib": ["ES2022", "DOM"],
+        "esModuleInterop": true, // Required for correct import
+        "strict": true, // Recommended
+        "skipLibCheck": true, // Speeds up build
+        "rootDir": "src",
+        "outDir": "dist"
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "dist"]
+}
